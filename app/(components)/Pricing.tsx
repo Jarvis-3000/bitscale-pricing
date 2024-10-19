@@ -43,8 +43,8 @@ export const Pricing = () => {
         <PricingContainer>
           <Title title='Growth' />
           <OfferedAndCancelledPrices
-            offered={interval === 'monthly' ? 229 : 229 * 11}
-            cancelled={interval === 'monthly' ? 459 : 459 * 11}
+            offered={interval === 'monthly' ? 229 : 159}
+            cancelled={interval === 'monthly' ? 459 : 399}
             interval={interval}
             offer={50}
             className='mt-4'
@@ -75,8 +75,8 @@ export const Pricing = () => {
             <PopularBadge />
           </div>
           <OfferedAndCancelledPrices
-            offered={interval === 'monthly' ? 499 : 499 * 11}
-            cancelled={interval === 'monthly' ? 999 : 999 * 11}
+            offered={interval === 'monthly' ? 499 : 429}
+            cancelled={interval === 'monthly' ? 999 : 929}
             interval={interval}
             offer={50}
             className='mt-4'
